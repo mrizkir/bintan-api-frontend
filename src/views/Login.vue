@@ -4,7 +4,7 @@
 			<v-row align="center" justify="center">
 				<v-col cols="12" sm="8" md="4">
 					<v-card class="elevation-12">
-						<v-toolbar color="#970747" dark flat>
+						<v-toolbar color="primary" dark flat>
 							<v-toolbar-title>LOGIN</v-toolbar-title>							
 						</v-toolbar>
 						<v-card-text>
@@ -21,12 +21,18 @@
 						</v-card-text>
 						<v-card-actions>
 							<v-spacer />
+							<v-btn color="primary" to="/">
+								Batal
+								<v-icon>
+                                    mdi-arrow-left-thick
+                                </v-icon>
+							</v-btn>
 							<v-btn color="primary">
 								Login
 								<v-icon>
                                     mdi-arrow-right-thick
                                 </v-icon>
-							</v-btn>
+							</v-btn>							
 						</v-card-actions>
 					</v-card>
 				</v-col>

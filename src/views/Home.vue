@@ -1,4 +1,5 @@
 <template>
+<FrontLayout>
 	<v-container>
 		<v-row class="text-center">
 			<v-col cols="12">
@@ -25,10 +26,16 @@
 			</v-col>
 		</v-row>
 	</v-container>
+</FrontLayout>
 </template>
 <script>
+import FrontLayout from '@/layouts/FrontLayout';
+
 export default {
-	name: 'Home',    
+	name: 'Home',  
+	components :{
+		FrontLayout
+	}  
   }
 </script>
 <style scoped>
