@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/yaca/bintan-api-frontend/
-    - /bin/cp -R * $DEPLOYPATH
+    - /bin/cp -R /home2/yaca/repositories/bintan-api-frontend/dist $DEPLOYPATH
